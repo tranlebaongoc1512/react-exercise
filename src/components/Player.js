@@ -1,6 +1,4 @@
-import React, { Component } from 'react'
 import { Players } from '../shared/ListOfPlayers.js'
-
 import React from 'react'
 
 export default function Player() {
