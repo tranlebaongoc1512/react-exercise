@@ -40,21 +40,21 @@ nav ul li a {
 }
 
 .card img {
-  width: 400px;
+  width: 380px;
 }
 
 .card button {
-  width: 400px;
+  width: 380px;
   color: white;
   background-color: black;
 }
 
 .card h3 {
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 .card p {
-  margin: 15px 0;
+  margin: 10px 0 15px 0;
 }
 
 footer {
