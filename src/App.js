@@ -3,12 +3,20 @@ import Footer from './components/Footer';
 // import Player from './components/Player';
 import Main from './components/Main';
 import Navigation from './components/Navigation';
+import Detail from './components/Detail';
+import Contact from './components/Contact';
+import { Routes, Route } from "react-router-dom";
+
 function App() {
   return (
     <div className="App">
       <Navigation />
-      {/* <Player/> */}
-      <Main />
+      <Routes>
+        <Route path='/' element={<Main />}>
+        </Route>
+        <Route path='/detail/:id' element={<Detail />}></Route>
+        <Route path='/contact' element={<Contact />}></Route>
+      </Routes>
       <Footer />
     </div>
   );
