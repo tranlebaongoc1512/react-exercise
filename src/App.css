@@ -2,7 +2,7 @@
   min-height: calc(100vh - 46.6px - 53.6px);
 }
 
-nav {
+/* nav {
   background-color: black;
   padding: 10px 10px 15px 10px;
 }
@@ -27,7 +27,7 @@ nav ul li a {
 .active {
   color: white !important;
   background-color: #c2b506;
-}
+} */
 
 .switch {
   position: absolute;
